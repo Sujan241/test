@@ -1,0 +1,105 @@
+Answers, 
+Q2= cd directories, cd images, cd clipart, cd food
+q3 = cd .., cd .., cd .., cd e-texts, cd Poe,EdgarAllan
+q4=ls
+q5=cd directories, cd images, pwd
+q6=mkdir photographs
+q7=cd directories, cd images, cd photographs, touch sunrise.jpg
+q8=mv sunrise.jpg /images/
+q9=cd directories, cd monkeys, subl like --add
+q10=rm bananas.html
+
+Q1= suz@suz-Inspiron-3521:~$ cd directories
+suz@suz-Inspiron-3521:~/directories$ ls
+dogs
+suz@suz-Inspiron-3521:~/directories$ cd dogs
+suz@suz-Inspiron-3521:~/directories/dogs$ ls
+hate
+suz@suz-Inspiron-3521:~/directories/dogs$ mkdir like
+suz@suz-Inspiron-3521:~/directories/dogs$ cd like
+suz@suz-Inspiron-3521:~/directories/dogs/like$ touch bananas.html
+suz@suz-Inspiron-3521:~/directories/dogs/like$ touch bones.html
+suz@suz-Inspiron-3521:~/directories/dogs/like$ cd ..
+suz@suz-Inspiron-3521:~/directories/dogs$ cd ..
+suz@suz-Inspiron-3521:~/directories$ mkdir e-texts
+suz@suz-Inspiron-3521:~/directories$ cd e-texts
+suz@suz-Inspiron-3521:~/directories/e-texts$ touch gutindex.all
+suz@suz-Inspiron-3521:~/directories/e-texts$ mkdir maugham, w.Somerset
+suz@suz-Inspiron-3521:~/directories/e-texts$ cd  maugham, w.Somerset
+bash: cd: too many arguments
+suz@suz-Inspiron-3521:~/directories/e-texts$ cd maugham, w.Somerset
+bash: cd: too many arguments
+suz@suz-Inspiron-3521:~/directories/e-texts$ ls
+gutindex.all  maugham,  w.Somerset
+suz@suz-Inspiron-3521:~/directories/e-texts$ rm maugham
+rm: cannot remove 'maugham': No such file or directory
+suz@suz-Inspiron-3521:~/directories/e-texts$ rm maugham,
+rm: cannot remove 'maugham,': Is a directory
+suz@suz-Inspiron-3521:~/directories/e-texts$ ls
+gutindex.all
+suz@suz-Inspiron-3521:~/directories/e-texts$ mkdir Maugham,W.Somerset
+suz@suz-Inspiron-3521:~/directories/e-texts$ ls
+gutindex.all  Maugham,W.Somerset
+suz@suz-Inspiron-3521:~/directories/e-texts$ cd  Maugham,W.Somerset
+suz@suz-Inspiron-3521:~/directories/e-texts/Maugham,W.Somerset$ touch moona10.txt
+suz@suz-Inspiron-3521:~/directories/e-texts/Maugham,W.Somerset$ touch moona10.zip
+suz@suz-Inspiron-3521:~/directories/e-texts/Maugham,W.Somerset$ ls
+moona10.txt  moona10.zip
+suz@suz-Inspiron-3521:~/directories/e-texts/Maugham,W.Somerset$ cd ..
+suz@suz-Inspiron-3521:~/directories/e-texts$ mkdir Oreilly,Augustine
+suz@suz-Inspiron-3521:~/directories/e-texts$ ls
+gutindex.all  Maugham,W.Somerset  Oreilly,Augustine
+suz@suz-Inspiron-3521:~/directories/e-texts$ cd Oreilly,Augustine
+suz@suz-Inspiron-3521:~/directories/e-texts/Oreilly,Augustine$ touch Alvira The heroine of versuvius.txt
+suz@suz-Inspiron-3521:~/directories/e-texts/Oreilly,Augustine$ ls
+Alvira  heroine  of  The  versuvius.txt
+suz@suz-Inspiron-3521:~/directories/e-texts/Oreilly,Augustine$ cd ..
+suz@suz-Inspiron-3521:~/directories/e-texts$ mkdir Poe,EdgarAlian
+suz@suz-Inspiron-3521:~/directories/e-texts$ cd  Poe,EdgarAlian
+suz@suz-Inspiron-3521:~/directories/e-texts/Poe,EdgarAlian$ touch poe1v10.txt poe1v10.zip story2.txt
+suz@suz-Inspiron-3521:~/directories/e-texts/Poe,EdgarAlian$ ls
+poe1v10.txt  poe1v10.zip  story2.txt
+suz@suz-Inspiron-3521:~/directories/e-texts/Poe,EdgarAlian$ cd ..
+suz@suz-Inspiron-3521:~/directories/e-texts$ cd ..
+suz@suz-Inspiron-3521:~/directories$ touch forbidden.txt
+suz@suz-Inspiron-3521:~/directories$ mkdir images
+suz@suz-Inspiron-3521:~/directories$ cd images
+suz@suz-Inspiron-3521:~/directories/images$ mkdir cartoons clipart
+suz@suz-Inspiron-3521:~/directories/images$ ls
+cartoons  clipart
+suz@suz-Inspiron-3521:~/directories/images$ cd cartoons
+suz@suz-Inspiron-3521:~/directories/images/cartoons$ touch df950523.jpg df971202.jpg
+suz@suz-Inspiron-3521:~/directories/images/cartoons$ ls
+df950523.jpg  df971202.jpg
+suz@suz-Inspiron-3521:~/directories/images/cartoons$ cd ..
+suz@suz-Inspiron-3521:~/directories/images$ cd clipart
+suz@suz-Inspiron-3521:~/directories/images/clipart$ mkdir animals food
+suz@suz-Inspiron-3521:~/directories/images/clipart$ cd animals
+suz@suz-Inspiron-3521:~/directories/images/clipart/animals$ touch dog.gif monkey.gif
+suz@suz-Inspiron-3521:~/directories/images/clipart/animals$ cd ..
+suz@suz-Inspiron-3521:~/directories/images/clipart$ cd food
+suz@suz-Inspiron-3521:~/directories/images/clipart/food$ touch bananas.gif bone.gif
+suz@suz-Inspiron-3521:~/directories/images/clipart/food$ cd ..
+suz@suz-Inspiron-3521:~/directories/images/clipart$ cd ..
+suz@suz-Inspiron-3521:~/directories/images$ cd ..
+suz@suz-Inspiron-3521:~/directories$ touch index.html
+suz@suz-Inspiron-3521:~/directories$ mkdir monekeys
+suz@suz-Inspiron-3521:~/directories$ rm monekeys
+rm: cannot remove 'monekeys': Is a directory
+suz@suz-Inspiron-3521:~/directories$ rm -r monekeys
+suz@suz-Inspiron-3521:~/directories$ ls
+dogs  e-texts  forbidden.txt  images  index.html
+suz@suz-Inspiron-3521:~/directories$ mkdir monkeys
+suz@suz-Inspiron-3521:~/directories$ cd monkeys
+suz@suz-Inspiron-3521:~/directories/monkeys$ mkdir hate like
+suz@suz-Inspiron-3521:~/directories/monkeys$ cd hate
+suz@suz-Inspiron-3521:~/directories/monkeys/hate$ touch bananas.html bones.html
+suz@suz-Inspiron-3521:~/directories/monkeys/hate$ cd ..
+suz@suz-Inspiron-3521:~/directories/monkeys$ cd like
+suz@suz-Inspiron-3521:~/directories/monkeys/like$ touch bananas.html bones.html
+suz@suz-Inspiron-3521:~/directories/monkeys/like$ ls
+bananas.html  bones.html
+suz@suz-Inspiron-3521:~/directories/monkeys/like$ cd ..
+suz@suz-Inspiron-3521:~/directories/monkeys$ cd ..
+suz@suz-Inspiron-3521:~/directories$ touch structure.txt
+suz@suz-Inspiron-3521:~/directories$ 
